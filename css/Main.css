@@ -18,6 +18,12 @@ section{
     border-radius: 50%;
     background-color: #dd7b00;
     border: none;
+    transition: .5s;
+    transform-origin: center;
+}
+
+.navBtn.active{
+    transform: rotate(90deg);
 }
 
 .navBtn .bar{
@@ -28,6 +34,11 @@ section{
     left: 50%;
     top: 35%;
     background-color: white;
+    transition: .5s;
+}
+
+.navBtn .bar.active{
+    opacity:0;
 }
 
 .navBtn .bar.mid{
@@ -45,10 +56,15 @@ section{
 .navBtn .plus.bar{
     top: 50%;
     opacity:0;
+    transition: .5s;
 }
 
 .plus:nth-last-of-type(1){
     top: 50%;
     left: 25%;
     transform: rotate(90deg);
+}
+
+.navBtn .plus.active{
+    opacity: 1;
 }
