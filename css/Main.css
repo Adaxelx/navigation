@@ -41,3 +41,14 @@ section{
     width: 15px;
     left: calc(50% - 5px);
 }
+
+.navBtn .plus.bar{
+    top: 50%;
+    opacity:0;
+}
+
+.plus:nth-last-of-type(1){
+    top: 50%;
+    left: 25%;
+    transform: rotate(90deg);
+}
