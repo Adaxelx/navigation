@@ -9,3 +9,13 @@ section{
     width: 100%;
     background-color: gray;
 }
+.navBtn{
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: #fcc808;
+    border: none;
+}
