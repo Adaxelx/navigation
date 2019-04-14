@@ -13,9 +13,31 @@ section{
     position: fixed;
     bottom: 3vh;
     right: 3vh;
-    height: 10vh;
-    width: 10vh;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    background-color: #fcc808;
+    background-color: #dd7b00;
     border: none;
+}
+
+.navBtn .bar{
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 35%;
+    background-color: white;
+}
+
+.navBtn .bar.mid{
+    top: 50%;
+    width: 20px;
+    left: calc(50% - 2.5px);
+}
+
+.navBtn .bar.bot{
+    top: 65%;
+    width: 15px;
+    left: calc(50% - 5px);
 }
