@@ -56,7 +56,7 @@ section{
 .navBtn .plus.bar{
     top: 50%;
     opacity:0;
-    transition: .5s;
+    transition: .2s;
 }
 
 .plus:nth-last-of-type(1){
