@@ -4,6 +4,7 @@ const navBg = document.querySelector('.bigNavBg')
 const nav = document.querySelector('nav')
 const li = document.querySelectorAll('nav ul li')
 let flag = false;
+
 const addClassLi = () =>{
     li.forEach(li => li.classList.toggle('active'))
 }

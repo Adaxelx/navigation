@@ -84,7 +84,7 @@ section{
 }
 
 .bigNavBg.active{
-   transform: scale(50);
+   transform: scale(35);
 }
 
 nav{
@@ -132,4 +132,22 @@ nav ul li:nth-of-type(3).active{
 }
 nav ul li:nth-of-type(4).active{
     transition-delay: .3s;
+}
+
+@media (min-width: 768px){
+    .bigNavBg.active {
+        transform: scale(50);
+    }
+}
+
+@media (min-width: 1024px) {
+    .bigNavBg.active {
+        transform: scale(70);
+    }
+}
+
+@media (min-width: 1280px) {
+    .bigNavBg.active {
+        transform: scale(90);
+    }
 }
